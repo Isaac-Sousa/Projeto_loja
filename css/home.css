@@ -1,17 +1,10 @@
-@import url(//db.onlinewebfonts.com/c/8cdbb48678e4418f22a2f507c2b975bd?family=Blanka);
-@font-face {font-family: "Blanka"; src: url("//db.onlinewebfonts.com/t/8cdbb48678e4418f22a2f507c2b975bd.eot");
-    src: url("//db.onlinewebfonts.com/t/8cdbb48678e4418f22a2f507c2b975bd.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/8cdbb48678e4418f22a2f507c2b975bd.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/8cdbb48678e4418f22a2f507c2b975bd.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/8cdbb48678e4418f22a2f507c2b975bd.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/8cdbb48678e4418f22a2f507c2b975bd.svg#Blanka") format("svg"); }
+@import url('http://fonts.cdnfonts.com/css/origin-tech-demo');
 nav{
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
     border-radius: 10px;
     color: black;
-    background-color: #94e1f6;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
     min-width: 300px;
     max-width: 100%;
@@ -20,14 +13,24 @@ nav{
 }
 label{
     margin-top: 5px;
+    font-family: 'Origin Tech Demo', sans-serif;
 }
 .opa{
     margin-right: 20px;
 }
 .Lnome{
-    font-family: Blanka, r;
-    text-align: center;
+    font-family: 'Origin Tech Demo', sans-serif;
+    font-size: 40px;
+    margin-right: 710px;
+    margin-bottom: 180px;
+
 }
+.logo{
+    margin-right: 10px;
+}
+
 .infos{
+    font-family: "Times New Roman";
+    font-size: 40px;
     text-align: center;
 }
