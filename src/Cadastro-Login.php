@@ -8,39 +8,46 @@
     <title>Cadastro-Login</title>
 </head>
 <body>
-<div class="lado-a-lado">
-<form class="L">
+<label class="naomuda">LOGO</label>
+<div class="contem">
+    <div class="nL">
+<form class="L" >
     <fieldset>       <legend>Login</legend>
         <div>
             <label>Nome: </label>
+
             <input type="text" name="nome_L" placeholder="Nome Completo" required>
             <br>
             <label>Email: </label>
+
             <input type="email" name="email_L" placeholder="Insira seu email" required>
         </div>
         <div class="btn">
             <button type="submit" name=" " >Confirmar</button>
-            <button type="reset" name=" ">Limpar</button>
         </div>
     </fieldset>
 </form>
+</div>
 <!--Termino do Form de Login-->
 <!--Inicio do Form de Cadastro-->
+    <div class="Nc">
 <form class="C">
     <fieldset>        <legend>Registrar-se</legend>
         <div>
             <label>Nome: </label>
+
             <input type="text" name="nome_L" placeholder="Nome Completo" required>
             <br>
             <label>Email: </label>
+
             <input type="email" name="email_L" placeholder="Insira seu email" required>
         </div>
         <div>
             <button type="submit" name=" " >Confirmar</button>
-            <button type="reset" name=" ">Limpar</button>
         </div>
     </fieldset>
 </form>
- </div>
+    </div>
+</div>
 </body>
 </html>

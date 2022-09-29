@@ -1,6 +1,57 @@
-.lado-a-lado{
-    display: inline-block;
+body{
+    font-size: 20px;
+}
+.contem{
+    display: flex;
+    justify-content: space-around;
+}
+legend{
+    height: 50px;
+    text-align: center;
+}
+.naomuda{
+    position: relative;
+    left:50%;
+}
+label{
+    position: absolute;
 }
 input{
+
+    margin-top: 20px;
     margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+button{
+    margin-top:30px ;
+    margin-left: 30px;
+    display: inline-block;
+    color:rgb(251, 255, 252);
+    background-image:linear-gradient(to right,rgb(219, 15, 15), rgb(170, 24, 24));
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 6px 15px;
+    font-size: 15px;
+    border-spacing: 3px;
+    cursor:pointer;
+}
+.L{
+    background-color: gray;
+    padding: 50px;
+}
+.C{
+    background-color: gray;
+    padding: 50px;
+}
+.nL{
+ float: left;
+ margin-left: 40px;
+    box-shadow: 18px -2px 2px -8px rgba(184,22,184,1);
+
+}
+.nC{
+ float: left;
 }
