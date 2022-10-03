@@ -1,34 +1,51 @@
 body{
-    font-size: 20px;
+    background-color: black;
+    font-size: 20px;font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
 }
 .contem{
     display: flex;
     justify-content: space-around;
+margin-right: 500px;
 }
-legend{
-    height: 50px;
-    text-align: center;
+.HEAD_forms1{
+
+    left: 39%;
+    bottom: 77%;
+}
+.HEAD_forms {
+    left: 60%;
+    bottom: 77%;
 }
 .naomuda{
+    top: 50px;
     position: relative;
-    left:50%;
+    left:50%
 }
 label{
+    font-size: 20px;
+    color: white;
     position: absolute;
 }
 input{
-
-    margin-top: 20px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    margin-top: 40px;
     margin-bottom: 10px;
     border-radius: 10px;
-
+    width: 300px;
+    height: 23px;
 }
 button{
     margin-top:30px ;
-    margin-left: 30px;
+    margin-left:50px;
     display: inline-block;
     color:rgb(251, 255, 252);
-    background-image:linear-gradient(to right,rgb(219, 15, 15), rgb(170, 24, 24));
+    background: linear-gradient(90deg, rgba(180,108,241,1) 0%, rgba(163,78,236,1) 49%, rgba(98,6,149,1) 100%);
     width: 60%;
     height: 30px;
     border-radius: 10px;
@@ -39,19 +56,34 @@ button{
     cursor:pointer;
 }
 .L{
-    background-color: gray;
+    margin-top: 120px;
     padding: 50px;
 }
 .C{
-    background-color: gray;
+    margin-top: 120px;
     padding: 50px;
 }
 .nL{
- float: left;
- margin-left: 40px;
-    box-shadow: 18px -2px 2px -8px rgba(184,22,184,1);
-
+    float: left;
+    margin-left: 545px;
 }
 .nC{
- float: left;
+    float: right;
+    margin-right:200px;
+}
+.retangulo{
+    position: absolute;
+    width: 5px;
+    height: 780px;
+    left: 980px;
+    top:170px;
+    background: #7F5AF0;
+}
+fieldset{
+    outline-color: black;
+}
+input:focus, input:valid {
+    outline: none !important;
+    border-color: #7F5AF0;
+    box-shadow: 0 0 10px #7F5AF0;
 }

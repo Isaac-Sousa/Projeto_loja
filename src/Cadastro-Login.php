@@ -12,40 +12,50 @@
 <div class="contem">
     <div class="nL">
 <form class="L" >
-    <fieldset>       <legend>Login</legend>
+     <label class="HEAD_forms1">Login</label>
+    <br>
         <div>
-            <label>Nome: </label>
-
-            <input type="text" name="nome_L" placeholder="Nome Completo" required>
-            <br>
             <label>Email: </label>
 
-            <input type="email" name="email_L" placeholder="Insira seu email" required>
+            <input type="email" name="email_l" class="inputuser" placeholder="Informe seu email" required>
+            <br>
+            <label>Senha: </label>
+
+            <input type="password" name="senha_L" class="inputuser" placeholder="Coloque sua senha" required>
         </div>
         <div class="btn">
             <button type="submit" name=" " >Confirmar</button>
         </div>
-    </fieldset>
 </form>
 </div>
 <!--Termino do Form de Login-->
+    <div class="retangulo"></div>
 <!--Inicio do Form de Cadastro-->
     <div class="Nc">
 <form class="C">
-    <fieldset>        <legend>Registrar-se</legend>
+  <label class="HEAD_forms">Registrar-se</label>
+    <br>
         <div>
             <label>Nome: </label>
 
-            <input type="text" name="nome_L" placeholder="Nome Completo" required>
+            <input type="text" name="nome_R" class="inputuser" placeholder="Nome Completo" required>
             <br>
             <label>Email: </label>
 
-            <input type="email" name="email_L" placeholder="Insira seu email" required>
+            <input type="email" name="email_R" class="inputuser" placeholder="Insira seu email" required>
+            <br>
+
+            <label>Senha: </label>
+            <input type="password" name="senha_r" class="inputuser" placeholder="Insira uma senha" required />
+            <br>
+
+            <label>Confirmar Senha: </label>
+            <input type="password" name="csenha_r" class="inputuser" placeholder="Confirme a senha" required />
+
         </div>
         <div>
             <button type="submit" name=" " >Confirmar</button>
         </div>
-    </fieldset>
 </form>
     </div>
 </div>
