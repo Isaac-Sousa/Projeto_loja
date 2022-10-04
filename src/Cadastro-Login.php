@@ -15,11 +15,11 @@
      <label class="HEAD_forms1">Logar</label>
     <br>
         <div>
-            <label>Email: </label>
+              <label class="L_login"> E-mail: </label>
 
             <input type="email" name="email_l" class="inputuser" placeholder="Informe seu email" required>
             <br>
-            <label>Senha: </label>
+            <label class="L_login">Senha: </label>
 
             <input type="password" name="senha_L" class="inputuser" placeholder="Coloque sua senha" required>
         </div>
@@ -36,16 +36,16 @@
   <label class="HEAD_forms">Registrar-se</label>
     <br>
         <div>
-            <label>Nome: </label>
+            <label class="L_Cad">Nome: </label>
 
             <input type="text" name="nome_R" class="inputuser" placeholder="Nome Completo" required>
             <br>
-            <label>Email: </label>
+            <label class="L_Cad">E-mail: </label>
 
             <input type="email" name="email_R" class="inputuser" placeholder="Insira seu email" required>
             <br>
 
-            <label>Senha: </label>
+            <label class="L_Cad">Senha: </label>
             <input type="password" name="senha_r" class="inputuser" placeholder="Insira uma senha" required />
             <br>
 

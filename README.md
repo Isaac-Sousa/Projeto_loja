@@ -5,6 +5,8 @@
 
 - Baixe e instale a tecnologia Php de acordo com seu sistema operacional.
 - Baixe e instale uma idle de sua preferência (Recomendo PHPStorm)
+- Intale aqui a fonte da Logo: https://www.dafont.com/pt/break-2.font
+- 
 
 
 ## Developing

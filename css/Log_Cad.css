@@ -1,10 +1,5 @@
 body{
     background-color: black;
-    font-size: 20px;font-family: 'Kumbh Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 43px;
 }
 .contem{
     display: flex;
@@ -12,35 +7,73 @@ body{
     margin-right: 500px;
 }
 .HEAD_forms1{
-
-    left: 39%;
+    font-size: 35px;font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 600;
+    left: 37%;
     bottom: 77%;
 }
 .HEAD_forms {
-    left: 60%;
+    font-size: 35px;font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 600;
+    left: 57%;
     bottom: 77%;
 }
 .naomuda{
+    color: #7F5AF0;
     font-family: 'Break';
     top: 50px;
     position: relative;
     left:46%;
     font-size: 55px;
+    text-shadow:
+            0 0 20px rgba(255, 255, 255, .9),
+            0 0 30px rgba(255, 255, 255, .9),
+            0 0 80px rgba(255, 255, 255, .9)
+            /*ative para um outro efeito neon*/
+            /*0 0 30px rgba(22, 233, 102, .7),*/
+            /*0 0 80px rgba(22, 233, 102, .7),*/
+            /*0 0 50px rgba(22, 233, 102, .7),*/
+            /*0 0 150px rgba(22, 233, 102, .7);*/
+
+
+
+    /*text-shadow:*/
+    /*    rgba(255, 255, 255, 0.84) 0 4px 8px,*/
+    /*    rgba(255,255,255) 0 0 24px,*/
+    /*        0 0 21px #fff,*/
+    /*    rgba(53, 231, 22, 0.35) 0 0 42px,*/
+    /*    rgba(51, 245, 17, 0.45) 0 13px 72px,*/
+    /*    rgba(45, 211, 16, 0.79) 0 9px 92px,*/
+    /*    rgba(132, 243, 113, 0.62) 9px 10px 132px,*/
+    /*    rgb(128, 241, 112) 40px 12px 110px;*/
 }
+
 label{
-    font-size: 20px;
+    left: 54.7%;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-size: 25px;
     color: white;
     position: absolute;
 }
+.L_login{
+     left: 32.3%;
+ }
+.L_Cad{
+    left: 54.7%;
+}
 input{
+    text-align:center ;
     color: white;
     background: rgba(255, 255, 255, 0.1);
     outline: 1px solid white;
     border: none;
     margin-top: 40px;
     margin-bottom: 10px;
-    border-radius: 10px;
-    width: 300px;
+    border-radius: 60px;
+    width: 320px;
     height: 23px;
 }
 button{
@@ -75,11 +108,12 @@ button{
     margin-right:200px;
 }
 .retangulo{
+    border-radius: 10px;
     position: absolute;
-    width: 5px;
-    height: 780px;
+    width: 7px;
+    height: 800px;
     left: 980px;
-    top:170px;
+    top:160px;
     background: #7F5AF0;
 }
 fieldset{
