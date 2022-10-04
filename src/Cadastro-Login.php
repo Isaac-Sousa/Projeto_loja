@@ -8,11 +8,11 @@
     <title>Cadastro-Login</title>
 </head>
 <body>
-<label class="naomuda">LOGO</label>
+<label class="naomuda">TecStore</label>
 <div class="contem">
     <div class="nL">
 <form class="L" >
-     <label class="HEAD_forms1">Login</label>
+     <label class="HEAD_forms1">Logar</label>
     <br>
         <div>
             <label>Email: </label>
