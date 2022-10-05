@@ -4,7 +4,8 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link href="//db.onlinewebfonts.com/c/8cdbb48678e4418f22a2f507c2b975bd?family=Blanka" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/8cdbb48678e4418f22a2f507c2b975bd?family=Blanka" rel="stylesheet"
+          type="text/css"/>
     <link rel="stylesheet" type="text/css" href="../css/home.css">
     <title>Home page</title>
 </head>
@@ -13,29 +14,84 @@
 <header>
     <nav class="Navy">
         <label class="logo">TecStore</label>
-        <label>Logar</label>
-        <label>Cadastrar</label>
-        <label>Home</label>
-        <div class="iconnav"><a href="#">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
-        </svg>
+        <a href="Cadastro-Login.php">
+            <button>Logar</button>
+        </a>
+        <a href="Cadastro-Login.php">
+            <button id="destaque">Cadastrar</button>
+        </a>
 
-        </a></div>
+        <!--Icones-->
         <div class="iconnav">
-            <a href="#"><svg class="w-6 h-6" fill="none" stroke="currentColor" width="35" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
-             </svg>
+            <a>
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" width="30" height="30" viewBox="0 0 24 24"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+                </svg>
+            </a>
+        </div>
+
+        <div class="iconnav"><a href="#">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" width="30" height="30" viewBox="0 0 24 24"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+        </a></div>
+
+        <div class="state">
+            <a href="#">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" width="35" height="30" viewBox="0 0 24 24"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                </svg>
             </a>
         </div>
     </nav>
 </header>
-<br>
-<h3 class="infos">Sobre</h3>
-<p>
-Testo descrevendo o conteudo da loja e como ela surgiu
-</p>
-
+<div class="searchICON">
+    <a>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" width="30" height="27" color="white" viewBox="0 0 24 24"
+             xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+        </svg>
+    </a>
+</div>
+<input class="pesquisa" type="text" name="pesquisa"/>
+<div class="modal">
+    <img src="../img/modal.png">
+    <div class="lembrete">
+        <div class="text">Criar uma janela modal</div>
+    </div>
+</div>
+<label class="indicadores">Produtos</label>
+<div class="categorias">
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+    <div class="more">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" width="50" height="80" color="white" viewBox="0 0 24 24"
+             xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+        </svg>
+    </div>
+</div>
+<!--    <label class="refsTXT">Ver tudo</label>-->
+<!--    <label class="refsTXT">Notebooks</label>-->
+<!--    <label class="refsTXT">Monitores</label>-->
+<!--    <label class="refsTXT">Headsets</label>-->
+<!--    <label class="refsTXT">Mouses</label>-->
+<!--    <label class="refsTXT">Teclados</label>-->
+<!--    <label class="refsTXT">Memorias</label>-->
+<!--    <label class="refsTXT">Ver mais</label>-->
+<p>Olha que textão</p>
 
 
 </body>
