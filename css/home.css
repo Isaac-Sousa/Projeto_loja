@@ -2,7 +2,8 @@ body{
     background-color: #16161A;
     color:#FFFFFFFF;
 }
-nav{
+/*Navbar de topo de página*/
+.Navy{
     background-color: white;
     display:flex;
     flex-direction: row;
@@ -13,7 +14,6 @@ nav{
     max-width: 100%;
     height: 45px;
     gap: 20px;
-
 }
 .iconnav{
     margin-top: 8px;
@@ -87,6 +87,8 @@ img{
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+/*Blocos de categorias para escolhas*/
 .categorias{
     display: flex;
     flex-direction: row;
@@ -103,8 +105,11 @@ img{
 }.more{
      position: relative;
      top: 520px;
-     right: 3%;
+     right: 5%;
 }
+/* fim dos blocos*/
+
+
  p{
      margin-top: 100%;
  }
@@ -131,10 +136,54 @@ button{
     left: 46%;
     top: 470px;
 }
+/*informações/nomes das categorias*/
 .refsTXT{
+    font-size: 20px;
     justify-self: flex-end;
     position: relative;
-    top:500px;
-    rigth: 8%;
-}
+    top: 140px;
+    margin-left: 30px;
+}#mouse{
+    margin-left: 40px;
+ }.more1{
+       font-size: 20px;
+    position: relative;
+    left: 55px;
+    top: 59px;
+   }
+/* Fim das informações*/
 a{color:black;}
+/*navbar de fim de página*/
+.bottom_Navy{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 50px;
+    width: 100%;
+    background-color: #2CB67D;
+}.logoBottom{
+     color: #7F5AF0;
+     margin-top: 3px;
+     font-family: 'Break';
+     font-size:40px;
+     margin-right: 56.5%;
+     text-shadow:
+             0 0 20px rgba(255, 255, 255, .9),
+             0 0 30px rgba(255, 255, 255, .9),
+             0 0 80px rgba(255, 255, 255, .9)
+ }
+ #Arroba{
+     width:55px;
+     margin-top: 10px;
+     font-size: 35px;
+     margin-right: 30.5%;
+}
+
+
+
+
+ /*#insta{*/
+ /*    position: relative;*/
+ /*    color: mediumvioletred;*/
+ /*    left: 40%;*/
+ /*}*/
