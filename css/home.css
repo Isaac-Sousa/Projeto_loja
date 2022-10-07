@@ -60,9 +60,9 @@ img{
     position: absolute;
     width: 80%;
     height: 65%;
-}
+}.modal{margin-bottom: 300px}
 .lembrete {
-    position: relative;
+    position: absolute;
     top: 150px;
     bottom: 0;
     left: 430px;
@@ -131,10 +131,10 @@ button{
     border-radius: 33px;
 }
 .indicadores{
-    font-size: 40px;
     position:relative;
+    font-size: 40px;
     left: 46%;
-    top: 470px;
+    top:500px;
 }
 /*informações/nomes das categorias*/
 .refsTXT{
@@ -155,6 +155,7 @@ button{
 a{color:black;}
 /*navbar de fim de página*/
 .bottom_Navy{
+    margin-top:22%;
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -179,6 +180,60 @@ a{color:black;}
      margin-right: 30.5%;
 }
 
+   /*Produtos Layout*/
+/*Campos 1*/
+.campos{
+    margin-top: 430px;
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    gap:100px;
+    text-align: center;
+
+}  .produtos{
+     position: relative;
+     top: 235px;
+     background-color: #ffffff;
+     width: 25%;
+     height: 350px;
+     left: 125px;
+     color: black;
+    font-size: 20px;
+}  .Ofer{
+     font-size: 40px;
+     position:relative;
+     left: 40.8%;
+     top: 600px;
+}
+/*  Campos 2 */
+.Release{
+       font-size: 40px;
+       position:relative;
+       left: 44.5%;
+       top: 300px;
+} #C2{
+      margin-top: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-self: flex-start;
+      gap:100px;
+      text-align: center;
+}
+ /*Campos 3*/
+.POP{
+    font-size: 40px;
+    position:relative;
+    left: 45%;
+    top: 300px;
+}  #C3{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    gap:100px;
+    text-align: center;
+}
+ /*Fim dos campos e produtos*/
 
 
 
